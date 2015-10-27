@@ -1,0 +1,26 @@
+package node;
+public class main {
+	public static void main(String[] args)
+	{
+
+		mylinklist MyList = new mylinklist();
+
+		MyList.add(2);
+		MyList.add(3);
+		MyList.add(4);
+	    MyList.add(6);
+		MyList.add(0);
+		MyList.add(8);
+		MyList.add(9);
+		MyList.index(1);
+		
+		
+		//System.out.println(MyList.h);
+		//MyList.remove();
+		
+		//System.out.println(MyList.index);
+		
+		MyList.display();	
+}}
+
+
